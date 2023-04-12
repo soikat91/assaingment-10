@@ -4,20 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- bootstrap css -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- font awesome css -->
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
     <!-- magnific css -->
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
-  
+ 
     <!-- main css -->
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- responsive css -->
     <link rel="stylesheet" href="assets/css/responsive.css">
-    <title>Contact Page</title>
+    <title>Portfolio Page</title>
+    <style>
+       
+    </style>
 </head>
-<body>  
+<body>
+    <!-- Header Top -->
+
 
     <!-- Header -->
     <header class="header-area">
@@ -43,7 +49,7 @@
                               </li>
                               <li class="nav-item">
                                 <a class="nav-link" href="portfolio.html">Portfolio</a>
-                              </li>  
+                              </li>                             
                               <li class="nav-item">
                                 <a class="nav-link" href="blogs.html">Blog</a>
                               </li>
@@ -63,92 +69,94 @@
     </header>
     
 
+    <!-- Breadcumb -->
     <section class="breadcumb-area" style="background-image: url('assets/img/portfolio.png');">
         <div class="container">
             <div class="row">
-                <div class="col-xxl-12 text-center">
-                    <h4 class="fw-bold">Contact Us</h4>
-                   
-                </div>
-            </div>
-        </div>
-    </section>   
-    
-   
-
-    <section>
-        <div class="container bg-light">
-            <div class="row">
-                <div class="col-lg-5 ">
-                    <div class="card mt-5">
-                        <div class="card-header">
-                            <h4 class="text-center fw-bold">Our Address</h4>
-
-                        </div>
-                        <div class="card-body">
-                            <h4>Phone</h4>
-                         
-                           <i class="fa-solid fa-phone"></i> <span>01712581191</span>
-                            <hr>
-                            <h4>Email</h4>
-                        
-                        <i class="fa-sharp fa-solid fa-envelope-open gap-"></i> <span>mehfuzahmedbd@gmail.com</span>
-                        <hr>
-                        <h4>Location</h4>
-                       
-                        <i class="fa-solid fa-location-dot"></i><span> Nilphamari</span>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-lg-7">
-                   
-                    <div class="card mt-5">
-                        <div class="card-header">
-                            <h4 class=" text-center fw-bold">Sent Message</h4>
-                        </div>
-                        <div class="card-body">
-                            <div class="contact-form">
-
-                    
-                       
-                                <form class="row g-3">
-                                    <div class="col-lg-6">
-                                      <input type="text" class="form-control" placeholder="Name" required>
-                                    </div>
-                                    <div class="col-lg-6">
-                                      <input type="email" class="form-control" placeholder="Email" required>
-                                    </div>
-                                    <div class="col-12">
-                                      <input type="text" class="form-control" placeholder="Subject" required>
-                                    </div>
-                                    <div class="col-12">
-                                      <textarea class="form-control" placeholder="Message" required></textarea>
-                                    </div>
-                                    <div class="col-12">
-                                      <button class="btn btn-primary float-end" type="">Send</button>
-                                    </div>
-                                  </form>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-xxl-12 text-center  ">
+                    <h4 class="fw-bold">Portfolio</h4>
                     
                 </div>
-
             </div>
         </div>
     </section>
-
-   
-
     
+    <!-- Projects -->
+    <div class="projects-page">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-xxl-12 text-center">
+                    <ul class="projects-menu d-flex justify-content-center">
+                        <li class="btn btn-sm btn-outline-primary  m-1 active" data-filter="*">All Items</li>
+                        <li class="btn btn-sm btn-outline-primary m-1 " data-filter=".html">HTML</li>
+                        <li class="btn btn-sm btn-outline-primary m-1 " data-filter=".css">CSS</li>
+                        <li class="btn btn-sm btn-outline-primary m-1 " data-filter=".js">JavaScript</li>
+                       
+                    </ul>
+                </div>
+            </div>
+            <div class="row project-items">
+                
+                <div class="col-lg-4 col-md-6 portfolio-item html">
+                    <div class="portfolio position-relative mb-3">
+                        <img src="assets/img/html.png" alt="" class="img-fluid">
+                        <div class="portfolio-content position-absolute top-50 start-50 translate-middle">
+                            <a href="assets/img/html.png" class="popup-image">
+                                <i class="fa-solid fa-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item css">
+                    <div class="portfolio position-relative mb-3">
+                        <img src="assets/img/css.png" alt="" class="img-fluid">
+                        <div class="portfolio-content position-absolute top-50 start-50 translate-middle">
+                            <a href="assets/img/css.png" class="popup-image">
+                                <i class="fa-solid fa-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item branding js">
+                    <div class="portfolio position-relative mb-3">
+                        <img src="assets/img/js.png" alt="" class="img-fluid" width="100px" height="100px">
+                        <div class="portfolio-content position-absolute top-50 start-50 translate-middle">
+                            <a href="assets/img/js.png" class="popup-image">
+                                <i class="fa-solid fa-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6  portfolio-item css">
+                    <div class="portfolio position-relative mb-3">
+                        <img src="assets/img/css.png" alt="" class="img-fluid" width="100px" height="100px">
+                        <div class="portfolio-content position-absolute top-50 start-50 translate-middle">
+                            <a href="assets/img/css.png" class="popup-image">
+                                <i class="fa-solid fa-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item html">
+                    <div class="portfolio position-relative mb-3">
+                        <img src="assets/img/html.png" alt="" class="img-fluid">
+                        <div class="portfolio-content position-absolute top-50 start-50 translate-middle">
+                            <a href="assets/img/html.png" class="popup-image">
+                                <i class="fa-solid fa-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+
 
 
    
+  <!-- footer section start -->
 
-   <!-- footer section start -->
-
-   <div class="container-fluid bg-secondary text-white mt-5 py-1 px-sm-1 px-md-5">
+  <div class="container-fluid bg-secondary text-white mt-5 py-1 px-sm-1 px-md-5">
     <div class="container text-center py-5">
         <div class="d-flex justify-content-center mb-4 p-3 gap-3">
             <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
@@ -185,6 +193,8 @@
     <script src="assets/js/slick.min.js"></script>
     <!-- magnific js -->
     <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- magnific js -->
+    <script src="assets/js/isotope.min.js"></script>
     <!-- main js -->
     <script src="assets/js/main.js"></script>
 </body>
